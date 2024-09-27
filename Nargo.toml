@@ -1,5 +1,5 @@
 [package]
-name = "hackathon_talk_demo"
+name = "noir_top_three_demo"
 type = "bin"
 authors = [""]
 compiler_version = ">=0.34.0"
