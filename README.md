@@ -1,6 +1,6 @@
 NOT FOR PRODUCTION USE! (This project uses dummy signatures and an unoptimized sorting algorithm)
 
-# noir-top-three-demo
+# noir_top_three_demo
 
 A simple demo where the top three pariticpants are returned.
 - Dummy signatures (`sha256` hashes) are used for simplicity
