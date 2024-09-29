@@ -1,4 +1,4 @@
-NOT FOR PRODUCTION USE! (This project uses dummy signatures and an unoptimized sorting algorithm)
+NOT FOR PRODUCTION USE! (This project uses dummy signatures and an unoptimized/underconstrained sorting algorithm)
 
 # noir_top_three_demo
 

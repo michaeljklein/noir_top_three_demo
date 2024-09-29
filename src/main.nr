@@ -82,11 +82,12 @@ impl Winners {
         // We need at least three participants
         assert(N >= 3);
 
+        // Find first, second, third place participant addresses
+        let sorted_participants = sort_array_gts(participants);
+
         // Check the (dummy) signatures
         assert_signatures_valid(participants, signer);
 
-        // Find first, second, third place participant addresses
-        let sorted_participants = sort_array_gts(participants);
         let first_place = sorted_participants[0].address;
         let second_place = sorted_participants[1].address;
         let third_place = sorted_participants[2].address;
